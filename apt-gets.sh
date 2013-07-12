@@ -8,6 +8,8 @@ echo sudo apt-get -y install mysql-server
 sudo apt-get -y install mysql-server
 echo sudo apt-get install mysql-client-core-5.5 mysql-client-5.5
 sudo apt-get -y install mysql-client-core-5.5 mysql-client-5.5
+echo sudo apt-get install -y python-mysqldb python-mysql.connector
+sudo apt-get install -y python-mysqldb python-mysql.connector
 echo sudo apt-get -y install git-core
 sudo apt-get -y install git-core
 echo sudo apt-get install -y rlwrap
